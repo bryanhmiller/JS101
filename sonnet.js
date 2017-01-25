@@ -1,10 +1,9 @@
 var fancyPoem = document.getElementById('sonnet');
-console.log(fancyPoem);
+
 var sonnet = fancyPoem.innerHTML;
-console.log(sonnet);
-console.log(sonnet.indexOf("orphans"));
-console.log(sonnet.length);
+
+console.log("indexOf", sonnet.indexOf("orphans"));
+console.log("length", sonnet.length);
 var winter = sonnet.replace("winter","yuletide");
 var large = winter.replace(/the/g,"a large");
 fancyPoem.innerHTML = large;
-console.log(large);

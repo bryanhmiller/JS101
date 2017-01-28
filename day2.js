@@ -65,13 +65,13 @@
 for(var i = 10; i < 101; i+=10){
 	console.log(i);
 }
-// for loop that pushes the index to an array for 5 times console.log(array)\\[0,1,2,3,4]
-// var newArray = "a"
-// for(var j = 0; j < 5; j++){
-// 	var newArray = newArray.push(j);
-// 	console.log("array", j);
-// }
-// console.log(newArray);
+ // for loop that pushes the index to an array for 5 times console.log(array)\\[0,1,2,3,4]
+ var newArray = [];
+ for(var j = 0; j < 5; j++){
+ 	newArray.push(j);
+ 	console.log("array", j);
+ }
+console.log(newArray);
 // for loop starts at 100 and divides by 2 each time 3 times = 100, 50, 25
 for (x = 100; x > 12; x = x/2)
 	console.log(x);

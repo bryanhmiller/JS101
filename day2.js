@@ -73,5 +73,6 @@ for(var i = 10; i < 101; i+=10){
  }
 console.log(newArray);
 // for loop starts at 100 and divides by 2 each time 3 times = 100, 50, 25
-for (x = 100; x > 12; x = x/2)
+for (x = 100; x > 12; x = x/2){
 	console.log(x);
+}
